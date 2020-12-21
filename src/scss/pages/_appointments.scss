@@ -1,0 +1,54 @@
+@import "../themes/default";
+.title-row
+{
+    display: flex;
+}
+.appointment-class
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.card-body
+{
+    color: $i_color !important;
+}
+p.id-class {
+    font-weight: bold;
+    text-align: end;
+}
+.date-wrapper {
+  
+    color: black;
+    font-size: initial;
+}
+.doctor-wrapper {
+    width: auto;
+     color: black;
+     font-size: initial;
+ }
+
+.date-wrapper i, .doctor-wrapper i{
+    color: black;
+}
+.right-wrapper {
+
+    font-weight: 600;
+ 
+}
+.right-button-wrapper button
+{
+    height: 45px;
+    width: 170px;
+}
+.right-button-wrapper .btn
+{
+   border-radius: 2rem;
+}
+.right-button-wrapper i{
+    color: white;
+}
+p.col.filter-wrapper {
+    text-align: end;
+    padding-top: 9px;
+}

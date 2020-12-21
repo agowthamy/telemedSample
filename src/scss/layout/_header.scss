@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+// $navbar-light-brand-color: #1E7661;
+
+@import "../themes/default";
+$light: #F4F4F4;
+
+i{
+    color:  $i_color;
+}
+
+.line
+{
+    height: 2px;
+    background-color: $i_color;
+}
+a.col-sm-5.menu.navbar-brand.notification-wrapper {
+    text-align: end;
+}

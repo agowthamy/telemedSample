@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+@import "../themes/default";
+
+.footer
+{
+  border-top: 2px solid $i_color;
+  height: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F4F4F4;
+  color:gray;
+  text-align: center;
+}
